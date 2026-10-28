@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: correction-updates-plan
+description: A correction updates the plan. The agent does not restart the routine, and does not treat it as a cancellation.
+tags: [socrates, correction]
+prompt: |
+  Question me. Read transcript.md and continue.
+fixture: fixture
+expect:
+  updates_the_plan: true
+  restarts_the_routine: false
+  treats_as_cancellation: false

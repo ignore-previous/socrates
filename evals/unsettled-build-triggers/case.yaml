@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: unsettled-build-triggers
+description: No trigger phrase, but a non-trivial build whose requirements are open. Socrates starts on its own.
+tags: [socrates, trigger]
+prompt: |
+  I want to add a booking system to my small yoga studio's website. People should be able to reserve classes. Go ahead and build it.
+expect:
+  has_trigger_phrase: false
+  engages: true
+  asks_about_unsettled_requirements: true
+  writes_code_before_plan_is_agreed: false

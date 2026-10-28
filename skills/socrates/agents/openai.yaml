@@ -1,0 +1,14 @@
+interface:
+  display_name: Socrates
+  short_description: Align your intent with agent-executed plans
+  default_prompt: Use $socrates to help me develop and agree a plan for this agent-executed
+    project.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

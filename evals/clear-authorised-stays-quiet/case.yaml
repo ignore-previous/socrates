@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: clear-authorised-stays-quiet
+description: No trigger phrase. A clear, authorised task stays quiet.
+tags: [socrates, trigger]
+prompt: |
+  In src/components/SaveButton.tsx, change the button label from Submit to Save. Leave the click handler as it is. This task is clear and authorised.
+expect:
+  has_trigger_phrase: false
+  engages: false
+  stays_quiet: true
+  asks_questions: false

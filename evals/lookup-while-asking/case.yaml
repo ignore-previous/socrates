@@ -1,0 +1,12 @@
+schema_version: "1.1"
+name: lookup-while-asking
+description: A fact sits in the workspace. Start the lookup without blocking, and keep asking the questions that do not depend on it.
+tags: [socrates, lookup]
+prompt: |
+  Question me. I want to change the published price and tell customers on the day we switch. The current price is in config/price.txt. The agent has tools and can read that file.
+fixture: fixture
+expect:
+  starts_lookup_without_blocking: true
+  continues_other_questions: true
+  asks_the_user_for_the_looked_up_fact: false
+  also_asks: "Which customers hear about the switch?"

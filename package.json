@@ -1,0 +1,16 @@
+{
+  "name": "@ignore-previous/socrates",
+  "version": "0.3.0",
+  "description": "Socrates by Ignore Previous. Helps you plan work that agents carry out, and confirms the plan with you before anything is built.",
+  "keywords": ["agent-skill", "claude-code", "codex", "socratic", "planning", "ignore-previous"],
+  "homepage": "https://ignoreprevious.dev",
+  "repository": {"type": "git", "url": "git+https://github.com/ignore-previous/socrates.git"},
+  "license": "MIT",
+  "author": "Ignore Previous <hello@ignoreprevious.dev>",
+  "files": ["README.md", "LICENSE", "skills/"],
+  "publishConfig": {"access": "public"},
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "check:maintainer": "node scripts/check.mjs --maintainer"
+  }
+}

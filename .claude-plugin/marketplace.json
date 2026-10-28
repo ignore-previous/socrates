@@ -1,0 +1,15 @@
+{
+  "name": "ignore-previous",
+  "description": "Skills by Ignore Previous",
+  "owner": { "name": "Ignore Previous", "email": "hello@ignoreprevious.dev" },
+  "plugins": [
+    {
+      "name": "socrates",
+      "source": "./",
+      "description": "Helps you plan work that agents carry out, and confirms the plan with you before anything is built.",
+      "version": "0.3.0",
+      "license": "MIT",
+      "keywords": ["agent-skill", "planning", "socratic"]
+    }
+  ]
+}

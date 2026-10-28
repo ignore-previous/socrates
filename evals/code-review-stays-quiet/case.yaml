@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: code-review-stays-quiet
+description: No trigger phrase. A request to review a pull request stays quiet.
+tags: [socrates, trigger]
+prompt: |
+  Review this PR.
+expect:
+  has_trigger_phrase: false
+  engages: false
+  stays_quiet: true
+  asks_questions: false

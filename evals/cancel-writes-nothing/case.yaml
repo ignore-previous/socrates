@@ -1,0 +1,12 @@
+schema_version: "1.1"
+name: cancel-writes-nothing
+description: The user says cancel. Stop, and write nothing. abandon is the same kind of cancellation.
+tags: [socrates, cancel]
+prompt: |
+  Question me. Read transcript.md and continue.
+fixture: fixture
+reply: cancel
+expect:
+  treats_as_cancellation: true
+  writes_anything: false
+  further_questions: false

@@ -1,0 +1,14 @@
+schema_version: "1.1"
+name: numbered-questions-with-recommendations
+description: A batch of questions is numbered, each with a recommended answer, and a plain yes accepts only that recommendation.
+tags: [socrates, questions]
+prompt: |
+  Socrates this: I want a script that backs up my photos to cloud storage every night.
+reply: |
+  Yes.
+expect:
+  numbers_the_questions: true
+  gives_a_recommended_answer_with_each_question: true
+  worded_so_yes_accepts_the_recommendation: true
+  treats_reply_as_accepting_only_the_stated_recommendations: true
+  offers_built_in_question_prompt_in_a_short_interview: false

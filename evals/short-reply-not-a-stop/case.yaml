@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: short-reply-not-a-stop
+description: A short reply in the middle of a review is not a cancellation. Carry on.
+tags: [socrates, reply]
+prompt: |
+  Question me. Read transcript.md and continue.
+fixture: fixture
+expect:
+  treats_reply_as_stop: false
+  treats_reply_as_cancellation: false
+  carries_on: true
