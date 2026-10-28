@@ -80,6 +80,10 @@ Run `git fetch origin` first: the check also reads the commits on your branch si
 
 Contributors run `npm run check`. The maintainer runs `npm run check:maintainer`, which adds a check that every commit on the branch uses the project's own author identity.
 
+## How we build this
+
+Socrates is built with AI coding agents (Claude Code and Codex). Every change is reviewed before it ships.
+
 ## Licence
 
 MIT. See [LICENSE](LICENSE).

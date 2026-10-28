@@ -1,6 +1,6 @@
 {
   "name": "@ignore-previous/socrates",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Socrates by Ignore Previous. Helps you plan work that agents carry out, and confirms the plan with you before anything is built.",
   "keywords": ["agent-skill", "claude-code", "codex", "socratic", "planning", "ignore-previous"],
   "homepage": "https://ignoreprevious.dev",

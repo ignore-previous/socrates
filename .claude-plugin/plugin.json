@@ -1,7 +1,7 @@
 {
   "name": "socrates",
   "displayName": "Socrates",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Helps you plan work that agents carry out, and confirms the plan with you before anything is built.",
   "author": { "name": "Ignore Previous", "email": "hello@ignoreprevious.dev", "url": "https://ignoreprevious.dev" },
   "homepage": "https://ignoreprevious.dev",
